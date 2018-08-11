@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Passenger {
+    
+    var _name: String!
+    var _craft: String!
+    
+    init(name: String, craft: String) {
+        _name = name
+        _craft = craft
+    }
+    
+}

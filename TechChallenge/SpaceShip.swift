@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+class SpaceShip {
+    
+    var _name: String!
+    var _longitude: String!
+    var _latitude: String!
+    var _time: TimeInterval!
+    
+    init(name: String, longitude: String, latitude: String, time: TimeInterval) {
+        _name = name
+        _longitude = longitude
+        _latitude = latitude
+        _time = time
+    }
+    
+}
